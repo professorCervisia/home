@@ -44,6 +44,8 @@ neeKnop.addEventListener('click', nietOud);
 
 
 
+
+
 function wegLeeftijd () {
   leeftijd.classList.add("leeftijdweg");
   leeftijd.classList.remove("leeftijd");
@@ -52,4 +54,8 @@ function wegLeeftijd () {
 
 function nietOud (){
   leeftijd.classList.add("nietOud");
+}
+
+if (window.location.href==="https://professorcervisia.github.io/home/") {
+    window.location.href = "https://professor-cervisia.nl"; 
 }
