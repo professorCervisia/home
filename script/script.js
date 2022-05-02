@@ -56,6 +56,4 @@ function nietOud (){
   leeftijd.classList.add("nietOud");
 }
 
-if (window.location.href==="https://professorcervisia.github.io/home/") {
-    window.location.href = "https://professor-cervisia.nl"; 
-}
+
