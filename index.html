@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Professor Cervisia</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+	<div class="leeftijd"  id="leeftijd">
+		<section>
+			<h1>Ben je 18 jaar of ouder?</h1>
+			<h2 class="neeAnt">Sorry je bent nog niet oud genoeg.</h2>
+			<h2 class="neeAnt">We zien je graag terug op je 18e verjaardag!</h2>
+			<form onSubmit="return false;">
+				<button class="ja"  id="ja" type="submit"><h4>JA!</h4></button>
+				<button class="nee" id="nee"><h4>NEE...</h4></button>
+			</form>
+		</section>
+	</div>
+	<header>
+		<img src="images/Logo's-03.png" alt="Professor Cervisia">
+		<nav class="nav">
+			<ol>
+				<li><a href="#overmij">Over mij</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="">Webshop</a></li>
+			</ol>
+		</nav>
+	</header>
+
+	<main>
+		<article class="banner">
+			<h1>WETENSCHAPPELIJK</h1>
+			<h1>BEWEZEN</h1>
+			<h1  id="overmij"><div class="lekker">LEKKER</div><div class="bier">BIER</div></h1>
+		</article>
+		<article class="overmij">
+			<section>
+				<h2>OVER MIJ</h2>
+				<p>Haidieho fans,</p>
+				<p>Leuk dat jullie hier op mijn pagina komen! Ik heb namelijk veel te vertellen. Op het moment ben ik bezig met mijn eigen speciaal bier op de markt te brengen.</p> 
+				<p>Tijdens dit proces kwam ik 3 studenten tegen die mij wellicht wel verder konden helpen genaamd Daan, Davey en Mila. Deze 3 studenten volgen de Minor Ondernemerschap aan de HvA en konden mij precies helpen. Terwijl ik de belangrijke taak doe van het bier maken, regelen zij de klusjes van de verkoop, marketing en alle andere mikmak die bij een onderneming hoort. Zodat ik mij kan focussen op het aller lekkerste biertje te maken.</p>
+				<p>Op het moment werk ik samen met een andere hele slimme professor in het bier vak van brouwerij Artemis, een hele slimme gast die heel veel van bier af weer (en heeft ook de spullen hiervoor). Wil je meer van mijn proces te weten krijgen neem dan een kijkje op mijn Instagram pagina hier laat ik al mijn bevindingen weten aan mijn fans.</p>
+				<p>Over en uit!</p>
+			</section>
+			<div>
+				<img src="images/pasfoto-02.png" alt="">
+			</div>
+		</article>
+		<article class="presale">
+			<aside>
+				<div>
+					<img src="images/productfoto.png" alt="">
+				</div>
+				<section>
+					<img src="images/etiket_naam-11.png" alt="">
+					<p>Wil jij als eerste dit heerlijke biertje proberen? Geef je e-mail door en ik zal je een mailtje sturen zodra mijn experiment beschikbaar is voor het grote publiek!</p>
+					<form action="script/action_page.php" method="post" onSubmit="return false;">
+						<label for="name">Voor & Achternaam:</label>
+						<input type="text" id="name" name="name" placeholder="Voor & Achternaam" required>
+						<label for="email">Email adres:</label>
+						<input type="text" id="email" name="email" required placeholder="jouw@email.nl">
+						<button type="submit" name="submit">Verstuur</button>
+					</form> 
+				</section>
+			</aside>
+		</article>
+		<article class="vrucht">
+			<section>
+				<h2>DE BERDIDAS VRUCHT</h2>
+				<p>Het experiment zit nu officieel in de een na laatste fase, de vrucht is hier! Na jaren onderzoek hebben alle experimenten nu eindelijk zijn vruchten afgeworpen. De perfecte vrucht voor het perfecte bier. Met testen van plant kruisingen en het kweken van het ideale soort bereik je nu dan toch het beste resultaat. Berdidas is de naam! Berdidas staat voor: Berijpt, Divine, Daslook vrucht. De naam die de wereld doet schokken. Bier is een passie van mij en ik heb gestreden om het lekkerste biertje te maken. Met trots kan ik zeggen dat dit biertje een wetenschappelijk bewezen lekker biertje wordt. Natuurlijk wil jij mij volgen in mijn avontuur. Volg ons dan nu op mijn logboek genaamd instagram!</p>
+				<a href="https://www.instagram.com/professor_cervisia/" target="_blank">Volg hier mijn logboek!</a>
+			</section>
+			<div>
+				<img src="images/vrucht-12.png" alt="">
+			</div>
+		</article>
+		
+	</main>
+	<footer id="contact">
+		<article>
+			<section>
+				<h2>Contact</h2>
+				<a href="mailto:professor.cervisia@gmail.com">professor.cervisia@gmail.com</a>
+				<ol>
+					<li><a href="tel:0612341464">Daan van Zeijl: 06-12341464</a></li>
+					<li><a href="tel:0649188032">Davey Fokker: 06-49188032</a></li>
+					<li><a href="tel:0610252654">Mila Steneker: 06-10252654</a></li>
+				</ol> <br>
+				<p>Duijvenbrug 9</p>
+				<p>1616 PD, Hoogkarspel</p>
+			</section>
+			<section>
+				<h2>Social Media</h2>
+				<ol>
+					<li><a href="https://www.instagram.com/professor_cervisia/" target="_blank"><img src="images/instagram.png" alt="">Professor_Cervisia</a></li>
+					<li><a href="https://www.facebook.com/Professor.Cervisia" target="_blank"><img src="images/facebook.png" alt="">Professor.Cervisia</a></li>
+					<li><a href="https://www.linkedin.com/company/84075849/admin/" target="_blank"><img src="images/linkedin.png" alt="">Professor Cervisia</a></li>
+				</ol>
+				<p>KvK: 85824879</p>
+				<p>BTW: NL863756244B01</p>
+			</section>
+		</article>
+	</footer>
+<script async src="script/script.js"></script>	
+</body>
+
+</html>
